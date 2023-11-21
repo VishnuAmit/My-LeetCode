@@ -1,5 +1,5 @@
 package Arrays.Easy;
-
+// Problem link: https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
 class Solution {
     public int maxProfit(int[] prices) {
         // // Brute force - tc:O(n2) sc: O(1)
