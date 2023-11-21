@@ -1,4 +1,4 @@
-package Easy;
+package Arrays.Easy;
 import java.util.* ;
 // Problem link : https://www.codingninjas.com/codestudio/problems/left-rotate-an-array-by-one_5026278?utm_source=striver&utm_medium=website&utm_campaign=a_zcoursetuf
 public class left_rotate_array_by_one {

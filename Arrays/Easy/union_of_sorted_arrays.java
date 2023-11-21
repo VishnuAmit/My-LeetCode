@@ -1,4 +1,4 @@
-package Easy;
+package Arrays.Easy;
 import java.util.*;
 class Solution {
     public static List<Integer> sortedArray(int[] a, int[] b) {

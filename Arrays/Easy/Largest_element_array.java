@@ -1,4 +1,4 @@
-package Easy; 
+package Arrays.Easy; 
 import java.util.*;
 // Problem link : https://www.codingninjas.com/studio/problems/largest-element-in-the-array-largest-element-in-the-array_5026279?utm_source=striver&utm_medium=website&utm_campaign=a_zcoursetuf
 public class Largest_element_array {
