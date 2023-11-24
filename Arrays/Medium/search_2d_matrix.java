@@ -1,4 +1,4 @@
-package Arrays.Medium;
+package Medium;
 // Problem link: https://leetcode.com/problems/search-a-2d-matrix/
 class Solution {
     public boolean searchMatrix(int[][] matrix, int target) {

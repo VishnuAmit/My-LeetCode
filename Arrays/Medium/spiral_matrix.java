@@ -1,4 +1,4 @@
-package Arrays.Medium;
+package Medium;
 import java.util.*;
 // Problem link: https://leetcode.com/problems/spiral-matrix/
 class Solution {

@@ -1,4 +1,4 @@
-package Arrays.Easy;
+package Easy;
 import java.util.ArrayList;
 import java.util.Collections;
 // Problem link: https://practice.geeksforgeeks.org/problems/leaders-in-an-array-1587115620/1

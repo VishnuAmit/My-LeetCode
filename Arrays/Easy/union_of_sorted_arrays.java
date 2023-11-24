@@ -1,5 +1,6 @@
-package Arrays.Easy;
+package Easy;
 import java.util.*;
+// Problem link: https://www.codingninjas.com/codestudio/problems/sorted-array_6613259?utm_source=striver&utm_medium=website&utm_campaign=a_zcoursetuf
 class Solution {
     public static List<Integer> sortedArray(int[] a, int[] b) {
         // // Brute force - tc: O(2nlogn+2n) sc: O(n1+n2)+O(n1+n2) -> return the ans

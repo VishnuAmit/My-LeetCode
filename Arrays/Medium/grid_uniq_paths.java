@@ -1,4 +1,4 @@
-package Arrays.Medium;
+package Medium;
 // Problem link: https://leetcode.com/problems/unique-paths/
 class Solution {
     // // Brute force - tc: exp sc: exp

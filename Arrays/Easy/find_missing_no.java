@@ -1,4 +1,4 @@
-package Arrays.Easy;
+package Easy;
 // Problem link: https://leetcode.com/problems/missing-number/
 class Solution {
     public int missingNumber(int[] nums) {

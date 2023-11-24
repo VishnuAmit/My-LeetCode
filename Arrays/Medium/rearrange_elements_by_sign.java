@@ -1,4 +1,4 @@
-package Arrays.Medium;
+package Medium;
 // Problem link: https://leetcode.com/problems/rearrange-array-elements-by-sign/
 class Solution {
     public int[] rearrangeArray(int[] nums) {

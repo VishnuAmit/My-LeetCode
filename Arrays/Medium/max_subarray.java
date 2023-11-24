@@ -1,4 +1,4 @@
-package Arrays.Medium;
+package Medium;
 // Problem link: https://leetcode.com/problems/maximum-subarray/
 class Solution {
     public int maxSubArray(int[] nums) {
