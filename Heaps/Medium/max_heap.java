@@ -1,4 +1,3 @@
-package Heaps.Medium;
 import java.util.ArrayList;
 // Problem link: https://www.codingninjas.com/studio/problems/build-heap_975375?leftPanelTabValue=PROBLEM
 
