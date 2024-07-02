@@ -1,4 +1,4 @@
-package Tries;
+package Tries.Medium;
 // Problem link: https://leetcode.com/problems/implement-trie-prefix-tree/
 class Node{
     Node links[]=new Node[26];

@@ -64,6 +64,7 @@ import java.util.*;
     
     class Solution{
         static int spanningTree(int V, int E, int edges[][]){
+            // tc: O(n+e) + O(eloge) + O(E*4alpha*2) sc: O(2N+E)
             List<Edge> edgeList = new ArrayList<Edge>();
             // Constructing the edge list from the given adjacency matrix
             for (int i = 0; i < E; i++) {

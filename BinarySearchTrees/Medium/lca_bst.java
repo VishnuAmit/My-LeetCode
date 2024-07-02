@@ -1,5 +1,5 @@
-package BinarySearchTrees.Medium;
 // Problem link: https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/
+package BinarySearchTrees.Medium;
 import BinarySearchTrees.TreeNode;
 class Solution {
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {

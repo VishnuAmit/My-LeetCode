@@ -31,7 +31,7 @@ class Solution{
 	   //helper(arr,n,dp);
 	   //return totwt;
 	   
-	   // Tabultion - tc: O(n2) sc: O(n)
+	   // Tabulation - tc: O(n2) sc: O(n)
 	    int[] dp = new int[n];
         int totalWeight = Integer.MIN_VALUE;
         for (int i = 0; i < n; i++) 

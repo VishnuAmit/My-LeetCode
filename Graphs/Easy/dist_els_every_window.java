@@ -24,6 +24,7 @@ class Solution
             // }
             // return ans;
             
+            // Optimal - tc: O(n) sc: O(n+k)
             HashMap<Integer, Integer> mpp=new HashMap<>();
             ArrayList<Integer> ans=new ArrayList<>();
             

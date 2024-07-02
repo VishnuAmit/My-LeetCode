@@ -2,7 +2,7 @@ package Easy;
 // Problem link: https://leetcode.com/problems/move-zeroes/
 class Solution {
     public void moveZeroes(int[] nums) {
-        // // Brute force - tc: O(n) sc: O(1)
+        // // Brute force - tc: O(n) sc: O(n)
         // int [] result= new int[nums.length];
         // int k=0;
         // for(int i=0;i<nums.length;i++){

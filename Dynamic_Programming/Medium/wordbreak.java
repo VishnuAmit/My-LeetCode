@@ -1,4 +1,5 @@
 package Dynamic_Programming.Medium;
+import java.util.List;
 // Problem link: https://leetcode.com/problems/word-break/description/
 class Solution {
     // private boolean helper(String s, int ind, List<String> wordDict, boolean[] dp){

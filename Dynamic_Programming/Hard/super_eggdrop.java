@@ -1,4 +1,4 @@
-package Hard;
+package Dynamic_Programming.Hard;
 // Problem link: https://leetcode.com/problems/super-egg-drop/
 class Solution {
     // public int helper(int k, int n, int[][] dp){

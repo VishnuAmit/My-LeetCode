@@ -3,7 +3,7 @@ import java.util.*;
 // Problem link: https://www.geeksforgeeks.org/problems/topological-sort/1
 class Solution
 {
-    //Function to return list containing vertices in Topological order. 
+    // tc: O(V+E) sc: O(2V)
     static int[] topoSort(int V, ArrayList<ArrayList<Integer>> adj) 
     {
         int[] topo=new int[V];

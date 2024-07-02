@@ -58,7 +58,7 @@ class Solution {
     // tc - O(2n*len) sc - cant predict
     Trie obj=new Trie();
     for(int i=0;i<n;i++){
-      obj.insert(a[i]);
+      Trie.insert(a[i]);
     }
     String longest="";
     for(int i=0;i<n;i++){

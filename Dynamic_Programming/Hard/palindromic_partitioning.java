@@ -1,4 +1,4 @@
-package Hard;
+package Dynamic_Programming.Hard;
 // Problem link: https://www.geeksforgeeks.org/problems/palindromic-patitioning4845/1
 class Solution{
     static boolean ispalindrome(int i, int j, String s){
