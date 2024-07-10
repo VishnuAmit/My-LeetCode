@@ -14,29 +14,21 @@ class Solution {
     //     return pq.peek();
     // }
 
-    public int partition(int []arr, int left, int right){
-        int pivot=arr[left];
-        int l=left+1;
-        int r=right;
-
-        while(l<=r){
-            if(arr[l]<pivot && arr[r]>pivot){
-                int temp=arr[l];
-                arr[l]=arr[r];
-                arr[r]=temp;
-            }
-            if(arr[l]>=pivot){
-                l++;
-            }
-            if(arr[r]<=pivot){
-                r--;
+    public int quickselect(int[] nums, int l, int r){
+        int pivot=nums[r];
+        int p=l;
+        for(int i=l;i<r;i++){
+            if(nums[i]<=pivot){
+                int temp=nums[i];
+                nums[i]=nums[p];
+                nums[p]=temp;
+                p++;
             }
         }
-        int temp2=arr[left];
-        arr[left]=arr[r];
-        arr[r]=temp2;
-
-        return r;
+        int temp1=nums[p];
+        nums[p]=nums[r];
+        nums[r]=temp1;
+        return p;
     }
 
     public int findKthLargest(int[] nums, int k) {
@@ -49,18 +41,23 @@ class Solution {
         // return max_heap(nums,k);
 
         // Optimal - O(n) sc: O(1)
-        int left=0, right=nums.length-1, kth;
-        while(true){
-            int index=partition(nums,left,right);
-            if(index==k-1){
-                kth=nums[index];
-                break;
-            }else if(index<k-1){
-                left=index+1;
-            }else{
-                right=index-1;
+        int left = 0;
+        int right = nums.length - 1;
+    
+        // Convert kth largest to kth smallest index
+        int kSmallestIndex = nums.length - k;
+    
+        while (left <= right) {
+            int index = quickselect(nums, left, right);
+    
+            if (index == kSmallestIndex) {
+                return nums[index];  // Found the kth largest element
+            } else if (index < kSmallestIndex) {
+                left = index + 1;  // Search in the right part
+            } else {
+                right = index - 1;  // Search in the left part
             }
         }
-        return kth;
+            return Integer.MAX_VALUE; 
     }
 }
