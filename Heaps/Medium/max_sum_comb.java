@@ -15,7 +15,7 @@ class Solution {
         // List<Integer> result = ans.subList(0, K);
         // return result;
         
-        // Optimal - tc: O(nlogn+klogn) sc: O(n+k).
+        // Optimal - tc: O(max(nlogn,klogn)) sc: O(nlogn).
         Arrays.sort(A);
         Arrays.sort(B);
         List<Integer> ans=new ArrayList<>();
