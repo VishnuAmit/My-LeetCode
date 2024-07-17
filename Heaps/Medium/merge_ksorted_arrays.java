@@ -4,9 +4,9 @@ import java.io.*;
 class Pair{
 	public int first,second,third;
 	Pair(int first,int second,int third){
-		this.first=first;
-		this.second=second;
-		this.third=third;
+		this.first=first; // el
+		this.second=second; // arr ind
+		this.third=third; // ind within arr
 	}
 }
 
