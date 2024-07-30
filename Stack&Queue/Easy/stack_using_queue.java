@@ -18,6 +18,7 @@ class MyStack {
         // Queue temp=q2;
         // q2=q1;
         // q1=temp;
+        
         q.add(x);
         for(int i=0;i<q.size()-1;i++){
             q.add(q.peek());
