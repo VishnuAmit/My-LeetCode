@@ -1,6 +1,5 @@
 package Medium;
 // Problem link: https://www.codingninjas.com/codestudio/problems/longest-subarray-with-sum-k_6682399?utm_source=striver&utm_medium=website&utm_campaign=a_zcoursetuf
-import java.util.*;
 class Solution {
     public static int longestSubarrayWithSumK(int []a, long k) {
         // // Brute force - tc: O(n2) sc: O(1)

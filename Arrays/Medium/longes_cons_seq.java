@@ -1,5 +1,6 @@
 package Medium;
 // Problem link: https://leetcode.com/problems/longest-consecutive-sequence/solution/
+import java.util.*;
 class Solution {
     // public boolean linearsearch(int[] arr, int x){
     //     for(int i=0;i<arr.length;i++){
