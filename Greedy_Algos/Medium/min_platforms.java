@@ -6,17 +6,17 @@ class Solution
     static int findPlatform(int arr[], int dep[], int n)
     {
         // // Brute force - tc: O(n2) sc: O(1);
-        // int max=1;
+        // int n=arr.length;
+        // int maxcnt=0;
         // for(int i=0;i<n;i++){
-        //     int res=1;
-        //     for(int j=i+1;j<n;j++){
-        //         if((arr[i]>=arr[j] && arr[i]<=dep[j]) || (arr[j]>=arr[i] && arr[j]<=dep[i])){
-        //             res++;
-        //         }
+        //     int cnt=0;
+        //     for(int j=0;j<n;j++){
+        //         if(arr[i]>=arr[j] && arr[i]<=dep[j]) cnt++;
         //     }
-        //     max=Math.max(res,max);
+        //     maxcnt=Math.max(cnt,maxcnt);
         // }
-        // return max;
+        // return maxcnt;
+
         
         // Optimal - tc: O(2nlogn + 2n) sc: O(1)
         Arrays.sort(arr);
