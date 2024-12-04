@@ -2,6 +2,8 @@
 class Solution
 { 
     //Function to find if there is a celebrity in the party or not.
+
+    // BF - traverse the matrix n get know me and ik array. traverse that again n check the conditions.
     int celebrity(int M[][], int n)
     {
     //     // Brute force - tc: O(n) sc: O(n)
